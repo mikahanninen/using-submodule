@@ -1,4 +1,4 @@
 [submodule "modules"]
 	path = modules
 	url = git@github.com:mikahanninen/provided-as-submodule.git
-	update = checkout
+	fetchRecurseSubmodules = no
