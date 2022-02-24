@@ -1,7 +1,9 @@
-"""Template robot with Python."""
+from CustomLibrary import custom_keyword
 
 
 def minimal_task():
+    val = custom_keyword("abc")
+    print(f"abc is now {val}")
     print("Done.")
 
 
